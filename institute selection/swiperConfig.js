@@ -1,4 +1,3 @@
-
 // Export the initSwiper function as a default export
 export default async function initSwiper() {
   var swiper = await new Swiper(".mySwiper", {
@@ -14,4 +13,3 @@ export default async function initSwiper() {
     },
   });
 }
-
